@@ -2,8 +2,9 @@ version: "3.9"
 
 services:
   web:
-    build: .
+    image: swarmtest
     ports:
       - "8000:8000"
   redis:
     image: redis:alpine
+
